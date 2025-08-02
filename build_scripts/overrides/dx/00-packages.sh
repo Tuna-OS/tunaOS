@@ -13,8 +13,6 @@ trap 'handle_error' ERR
 
 # Install required packages
 echo "Installing DNF packages..."
-dnf install -y \
-    python3-ramalama
 
 # VSCode on the base image!
 echo "Adding VSCode repo and installing code..."
